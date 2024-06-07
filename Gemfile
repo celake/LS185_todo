@@ -8,3 +8,7 @@ gem "webrick"
 gem "rackup", "~> 2.1"
 gem "pg"
 gem "pry"
+
+group :production do
+  gem "puma"
+end
